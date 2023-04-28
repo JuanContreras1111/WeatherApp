@@ -1,0 +1,10 @@
+.App {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   font-family: emoji;
+   padding: 0px;
+   margin: 0;
+   background-image: url(https://r4.wallpaperflare.com/wallpaper/26/58/362/animales-corre-hierba-perro-wallpaper-1bb60c9d73517f2915a49b892d6c3c40.jpg);
+}
