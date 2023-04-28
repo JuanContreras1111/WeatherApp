@@ -43,7 +43,6 @@ const changeUnitTemp = () => setIsCelsius(!isCelsius)
           setTemps(newTemps)
         
           
-       
       })
       .catch(Error => console.log(Error))
     }
@@ -51,7 +50,7 @@ const changeUnitTemp = () => setIsCelsius(!isCelsius)
   
 
   return (
-    <div className="App">
+    <div className={`App b${weather?.weather[0].icon}` }>
       {
         weather ? (
         <WeatherCard 
